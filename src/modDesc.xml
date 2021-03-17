@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="${descVersion}">
+	<author>${author}</author>
+	<version>${version}</version>
+	<title>
+		<en>${title}</en>
+	</title>
+	<description>
+		<en>
+			<![CDATA[
+This mod aims to solve a mistake from the base game.
+Some potato and sugar beet harvesters are able to work in hail and rain, but not them all.
+With this mod, all of them will be able to do it.
+
+Affected machineries:
+ - Grimme SE260
+ - Ropa Keiler 2
+ - Ropa Panther 2
+ - Ropa Tiger 6
+]]>
+		</en>
+		<de>
+			<![CDATA[
+Dieser Mod zielt darauf ab, einen Fehler aus dem Basisspiel zu beheben.
+Einige Kartoffel- und Zuckerrübenroder sind in der Lage, bei Hagel und Regen zu arbeiten, aber nicht alle.
+Mit dieser mod, alle von Ihnen werden in der Lage sein, es zu tun.
+
+Betroffene Maschinen:
+ - Grimme SE260
+ - Ropa Keiler 2
+ - Ropa Panther 2
+ - Ropa Tiger 6
+]]>
+		</de>
+		<fr>
+			<![CDATA[
+Ce mod vise à résoudre une erreur du jeu de base.
+Certaines arracheuses de pommes de terre et de betteraves à sucre sont capables de travailler sous la grêle et la pluie, mais pas toutes.
+Avec ce mod, elles pourront toutes le faire.
+
+Machines affectées :
+ - Grimme SE260
+ - Ropa Keiler 2
+ - Ropa Panther 2
+ - Ropa Tiger 6
+]]>
+		</fr>
+	</description>
+	<multiplayer supported="true" />
+	<iconFilename>icon.png</iconFilename>
+	<extraSourceFiles>
+		<sourceFile filename="rmod/Main.lua" />
+		<sourceFile filename="utility/Main.lua" />
+		<sourceFile filename="rainWontStopMe.lua" />
+	</extraSourceFiles>
+</modDesc>
